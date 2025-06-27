@@ -37,7 +37,7 @@ BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "RM_Supports")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://imgur.com/a/NYndShA")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.imgur.com/UiRj3CN.jpeg")
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
@@ -63,7 +63,12 @@ START_MSG = os.environ.get(
 *𝘿𝙤𝙣'𝙩 𝙛𝙤𝙧𝙜𝙚𝙩 𝙩𝙤 𝙟𝙤𝙞𝙣 𝙤𝙪𝙧 𝙘𝙝𝙖𝙣𝙣𝙚𝙡*
 """
 )
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ᴏᴜʀ   ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", """𝗛𝗲𝘆 {mention}
+
+𝗣𝗹𝗲𝗮𝘀𝗲 𝗝𝗼𝗶𝗻 𝗔𝗹𝗹 𝗠𝘆 𝗨𝗽𝗱𝗮𝘁𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀 𝗧𝗼 𝗨𝘀𝗲 𝗠𝗲!
+━━━━━━━━━━━━━━━━━━━━━━
+➥ᴊᴏ ʟᴏɢ ᴅᴏᴡɴʟᴏᴀᴅ ᴋᴀʀᴀɴᴀ ʜᴀʜɪɴ ᴊᴀᴀɴᴀᴛᴇ, ᴏ ʟᴏɢ ʏᴀʜ ᴠɪᴅᴇᴏ ᴅᴇᴋʜᴇɴ ⟱⟱
+https://t.me/Anime_Downlod_Tutorial/4""")
 
 CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockquote>
 
